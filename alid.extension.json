@@ -1,0 +1,45 @@
+{
+  "apiVersion": 2,
+  "id": "diagram.penrose",
+  "version": "0.1.0",
+  "engine": "^0.1.0",
+  "dependencies": {},
+  "optionalDependencies": {},
+  "conflicts": [],
+  "provides": {
+    "services": [],
+    "aspects": [
+      "diagram.penrose.diagram"
+    ],
+    "hsmSlots": []
+  },
+  "title": "Penrose 다이어그램",
+  "summary": "Penrose의 .domain · .substance · .style 세 파일을 캔버스 컴포넌트에서 직접 편집하고 순수 벡터 SVG로 렌더링합니다.",
+  "entry": "dist/plugin.js",
+  "sha256": "6e400c7080176f5d29cc6ccd3cc0a0eb2a91072462d8ec0dbf7a15b258070825",
+  "aspectIds": [
+    "diagram.penrose.diagram"
+  ],
+  "capabilities": {
+    "readAspects": [
+      "diagram.penrose.diagram",
+      "core.transform",
+      "core.bounds"
+    ],
+    "writeAspects": [
+      "diagram.penrose.diagram",
+      "core.transform",
+      "core.bounds"
+    ],
+    "services": [
+      "canvas.creation",
+      "canvas.active-tool-surface"
+    ],
+    "commands": [
+      "diagram.penrose:insert-diagram",
+      "diagram.penrose:apply-source",
+      "diagram.penrose:reset-source",
+      "diagram.penrose:recompile"
+    ]
+  }
+}

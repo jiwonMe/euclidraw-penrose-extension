@@ -1,0 +1,14 @@
+{
+  "id": "diagram.penrose",
+  "title": "Penrose 다이어그램",
+  "version": "0.1.0",
+  "summary": "Penrose의 .domain · .substance · .style 세 파일을 캔버스 컴포넌트에서 직접 편집하고 순수 벡터 SVG로 렌더링합니다.",
+  "engine": "^0.1.0",
+  "dependencies": {},
+  "optionalDependencies": {},
+  "conflicts": [],
+  "provides": {
+    "services": [],
+    "hsmSlots": []
+  }
+}
