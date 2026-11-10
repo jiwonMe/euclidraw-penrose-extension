@@ -497,6 +497,7 @@ export function PenroseEditorPanel({ context }) {
       React.createElement('input', {
         value: draft.variation,
         onChange: event => update('variation', event.target.value),
+        'aria-label': 'Penrose variation (layout seed)',
         spellCheck: false,
         style: {
           flex: '1 1 auto',
